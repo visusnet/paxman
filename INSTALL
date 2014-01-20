@@ -1,0 +1,35 @@
+INSTALL
+
+1. Requirements
+===============
+
+* You need SDL, SDL_ttf and libxml2 to compile and run this program.
+   - SDL:
+     http://www.libsdl.org/
+   - SDL_ttf:
+     http://www.libsdl.org/projects/SDL_ttf/
+   - libxml2:
+     http://www.xmlsoft.org/
+
+2. Default installation
+=======================
+
+Compile paxman with
+$ make
+
+you can install it with
+$ make install
+
+and deinstall it with
+$ make deinstall
+
+3. Known problems
+=================
+
+In some cases xmlmemory.h and parser.h won't be found.
+You have to copy the libxml2 header files to a different
+directory.
+
+e.g.:
+$ cp -R /usr/include/libxml2/libxml /usr/include
+

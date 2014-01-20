@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<paxman>
+	<general>
+		<install_directory>/etc/paxman/</install_directory>
+		<map_directory>/etc/paxman/maps/</map_directory>
+		<img_directory>/etc/paxman/img/</img_directory>
+		<font_directory>/etc/paxman/fonts/</font_directory>
+		<default_map>default</default_map>
+	</general>
+</paxman>

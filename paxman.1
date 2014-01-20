@@ -1,0 +1,59 @@
+.TH paxman 1 "(c) 2004 Fabian Becker, Alexander Müller"
+.SH NAME
+paxman - pacman for linux, windows and so on 
+.SH SYNOPSIS
+.B paxman [ options ] map ...
+.SH DESCRIPTION
+.B paxman 
+is a well known game developed by Namko in Japan, 1980.  
+.SH OPTIONS
+.TP
+.B --help
+display usage information
+.TP
+.B --maps
+display all available maps
+.TP
+.B --config display configuration data
+.SH KEYS
+.nf
+Arrow keys      move, or:
+W               move up
+S               move down 
+A               move left 
+D               move right 
+ESC             pause the game and show the menu (not yet included)
+.fi
+.SH COMMON PROBLEMS
+.B paxcman 
+exits on mouse clicks.
+.B paxman
+can only load maps with newlines which are used by the running system.
+e.g. Windows newlines in maps cannot be used in linux. 
+.P
+.SH BUGS
+none
+.SH SEE ALSO
+sh(1), sdl(1)
+.SH AUTHORS
+.nf
+Fabian Becker <neonomicus@gmx.de>,
+Alexander Müller <visus@portsonline.net>
+.fi
+.SH COPYRIGHT
+Copyright (C) 2004 Fabian Becker <neonomicus@gmx.de>,
+                   Alexander Müller <visus@portsonline.net>
+.P
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+.P
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+.P
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
